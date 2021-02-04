@@ -14,6 +14,16 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
+Also SET 'REACT_APP_INFURA_ID' to any valid project id in .env file
+
+### Steps to regenerate
+
+- Connect Wallet by scanning QR code in metamask mobile app
+- Make sure you have ETH on rinkeby
+- Click on Approve button to approve spending of 0 USDC (Fake) to smart contract
+- Check if transaction receipt is received
+- Also test same with web3 1.2.11
+
 ### `yarn test`
 
 Launches the test runner in the interactive watch mode.\
